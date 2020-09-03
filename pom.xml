@@ -136,7 +136,6 @@
             <groupId>org.apache.maven.surefire</groupId>
             <artifactId>surefire-logger-api</artifactId>
             <version>${maven-surefire-plugin.version}</version>
-            <!-- to get around bug https://github.com/junit-team/junit5/issues/801 -->
             <scope>test</scope>
             <optional>true</optional>
         </dependency>
@@ -302,12 +301,10 @@
     </build>
 
     <profiles>
-
         <profile>
             <id>dev</id>
             <build>
                 <plugins>
-
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
