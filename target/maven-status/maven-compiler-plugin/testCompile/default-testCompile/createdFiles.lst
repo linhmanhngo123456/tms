@@ -1,0 +1,5 @@
+com\baeldung\contexttests\mongoreactiveconfig\SpringContextLiveTest.class
+com\baeldung\repository\QueryMethodsLiveTest.class
+com\baeldung\mongotemplate\MongoTemplateProjectionLiveTest.class
+com\baeldung\repository\JSONQueryLiveTest.class
+com\baeldung\repository\BaseQueryLiveTest.class
